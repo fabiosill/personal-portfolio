@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .div-content h1 {
+    font-size: 2rem;
+    }
+    .div-content h3 {
+    font-size: 1.2rem;
+    }
+    .iframe-animation {
+    max-width: 300px;
+    }
+}
