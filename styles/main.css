@@ -12,7 +12,7 @@
 }
 
 .div-content{
-    max-width: 600px;
+    max-width: 500px;
 }
 .blue-bg{
     position: absolute;
@@ -69,6 +69,10 @@
     z-index: -100;
 }
 
+.btn-box{
+    position: absolute;
+    margin-top: 5rem;
+}
 .btn-box a{
     position: relative;
     display: inline-flex;
@@ -122,11 +126,10 @@
 }
 
 .div-logos{
-    position: absolute;
-    bottom: 40px;
-    width: 170px;
+    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
 }
 
 .div-logos a{
@@ -146,9 +149,11 @@
     overflow: hidden;
     transition: .5s;
 }
+
 .div-logos a:hover{
     color: #081b29;
 }
+
 .div-logos a::before{
     
     content: '';
@@ -231,11 +236,9 @@
 
 }
     
-
 .div-sobre .div-repositorio a:hover{
     color: #00abf0;
 }
-
 
 .div-sobremim{
     margin-top: 4rem;
@@ -254,9 +257,11 @@
     margin-top: 40px;
     transition: 1s;
 }
+
 .div-foto:hover{
     opacity: 1;
 }
+
 .div-profissao{
     border-radius: 25px;
     padding: 2rem;
@@ -285,6 +290,38 @@
     margin-bottom: 1.3rem;
     font-weight: 200;
 }
+
 .bold{
     font-weight: 500;
+}
+
+.footer-style{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25%;
+    flex-wrap: nowrap;
+}
+
+.div-logos{
+    display: flex;
+    gap: 15px;
+}
+
+.div-footerp h3{
+    text-align: right;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    font-size: 0.8rem;
+    background-color: #141417;
 }
